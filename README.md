@@ -1,4 +1,4 @@
-# RAG System Project -> URL -> [https://rag-system1-2.onrender.com](https://rag-bakend-assignment-deploy-1-77cf.onrender.com/)
+# RAG System Project -> URL -> [Live Link](https://rag-bakend-assignment-deploy-1-77cf.onrender.com/)
 
 ## Step-by-Step Summary of the RAG System Project
 
@@ -18,20 +18,49 @@
 
 ```
 /project-root
-│── /backend
-│   ├── index.js
-│   ├── .env
+.
+├── .gitignore
+├── bulk_test.ipynb
+├── package.json
+├── testing_json.ipynb
+├── testing.ipynb
+├── APItesting/
+│   ├── Json/
+│   │   ├── json_query_results.txt
+│   │   ├── json_uploaded_files.json
+│   │   ├── JsonGetStats.py
+│   │   └── JsonUpload.py
+│   └── Text/
+│       ├── textFilesUpload.py
+│       └── textQueries.py
+├── backend/
+│   ├── app.js
+│   ├── global.js
+│   ├── server.js
+│   ├── config/
+│   │   └── index.js
+│   ├── controllers/
+│   │   ├── fileController.js
+│   │   └── jsonController.js
+│   ├── routes/
+│   │   ├── fileRoutes.js
+│   │   └── jsonRoutes.js
+│   ├── services/
+│   │   ├── fileService.js
+│   │   ├── uploadService.js
+│   │   └── weaviateService.js
+│   └── utils/
+├── frontend/
+│   ├── .gitignore
 │   ├── package.json
-│   ├── /docs
-│── /frontend
-│   ├── /src
-│   │   ├── components
-│   │   │   ├── Upload.js
-│   │   │   ├── QueryInput.js
-│   │   │   ├── ResultDisplay.js
-│   ├── package.json
-│── .gitignore
-│── README.md
+│   ├── README.md
+│   ├── public/
+│   │   ├── favicon.ico
+│   │   ├── index.html
+│   │   └── logo192.png
+│   └── src/
+├── uploads/
+│
 ```
 
 - **Backend Folder:**
